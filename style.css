@@ -1,0 +1,113 @@
+/* ---------- RESET ---------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ---------- NAVBAR (ON IMAGE) ---------- */
+header {
+  position: absolute;   /* 🔥 changed */
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+}
+
+.logo {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: white;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* ---------- HERO IMAGE FULL SCREEN ---------- */
+.hero {
+  height: 100vh;
+  background: url("campus.jpg") center/cover no-repeat;
+  position: relative;
+}
+
+
+.hero-overlay {
+  height: 100%;
+  background: rgba(0,0,0,0.45);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.hero-overlay h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero-overlay p {
+  font-size: 1.2rem;
+  max-width: 650px;
+}
+
+/* ---------- SCROLL OVER CONTENT ---------- */
+.content {
+  background: white;
+  padding: 90px 100px;
+  margin-top: -120px;   /* overlap effect */
+  position: relative;
+  z-index: 10;
+  border-radius: 20px 20px 0 0;
+}
+
+.content h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+.content p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+/* ---------- RESPONSIVE ---------- */
+@media (max-width: 768px) {
+  nav {
+    padding: 16px 20px;
+  }
+
+  .hero-overlay h1 {
+    font-size: 2.2rem;
+  }
+
+  .content {
+    padding: 50px 25px;
+    margin-top: -80px;
+  }
+}
