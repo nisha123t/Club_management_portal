@@ -1,6 +1,6 @@
 # 🎓 Club Management Portal
 
-A comprehensive web-based platform for managing college clubs, events, and student activities at VIT Chennai. This application streamlines club management by connecting students, coordinators, and administrators on a single, easy-to-use platform.
+A comprehensive web-based frontend platform for managing college clubs, events, and student activities at VIT Chennai using ReactJS, Js, HTML and CSS. This application streamlines club management by connecting students, coordinators, and administrators on a single, easy-to-use platform.
 
 ## 📋 Table of Contents
 
@@ -14,8 +14,7 @@ A comprehensive web-based platform for managing college clubs, events, and stude
 - [Contributing](#contributing)
 - [License](#license)
 
-## ✨ Features
-
+##  Features:
 ### Core Functionality
 - **User Authentication**: Secure login and registration system
 - **Role-Based Access**: Different dashboards for Admin, Coordinator, and Student users
@@ -217,7 +216,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ## 📞 Support
 
-For support, email contact@vitclubs.com or open an issue in the repository.
+For support open an issue in the repository.
 
 ---
 
